@@ -1,0 +1,128 @@
+body {
+ 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dadae7; /* Fondo claro y agradable */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(fondo.jpg); 
+  }
+  
+  fieldset {
+   
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px; /* Más espacio interno */
+    width: 400px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  legend {
+    
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px; /* Separación del contenido */
+    border-bottom: 2px solid #ddd; /* Línea inferior */
+    padding-bottom: 0px;
+  }
+  
+  h1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px; /* Separación superior */
+    margin-bottom: 20px; /* Separación inferior */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Más espacio entre grupos */
+    display: flex; 
+    align-items: center;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px; 
+    width: 120px; 
+    color: #333; /* Texto más oscuro */
+    text-align: right; 
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"],
+  select {
+    width: calc(100% - 130px); /* Espacio calculado */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; 
+    background-color: #f9f9f9; /* Fondo claro */
+    transition: border-color 0.3s; /* Transición suave */
+  }
+  
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="email"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    border-color: #007bff; /* Color de borde al enfocarse */
+    outline: none; /* Sin borde de enfoque */
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s; /* Transición suave */
+    margin: 5px; /* Espaciado entre botones */
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #mensaje {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #e7f3ff; /* Fondo azul claro */
+    border: 1px solid #007bff; /* Borde azul */
+    font-size: 16px; 
+  }
+  
+  .radio-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px; 
+  }
+  
+  .radio-label {
+    cursor: pointer; 
+    color: #333; /* Texto más oscuro */
+    margin-right: 20px; /* Espacio entre opciones */
+  }
+  
+  .form-group-radio {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px; /* Más espacio entre grupos */
+  }
